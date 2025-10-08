@@ -1,0 +1,43 @@
+{
+  "common": {
+    "readMore": "Leggi di più",
+    "viewDetails": "Dettagli",
+    "readMoreAbout": "Leggi di più su",
+    "viewProject": "Visualizza progetto",
+    "learnMoreAbout": "Scopri di più su",
+    "emailPlaceholder": "Indirizzo email",
+    "paginationPrevious": "Precedente",
+    "paginationNext": "Successivo",
+    "paginationPortfolioPrev": "Portfolio Precedente",
+    "paginationPortfolioNext": "Portfolio Succ"
+  },
+  "widgets": {
+    "postSearchFormPlaceholder": "Prova a cercare 'consigli'...",
+    "categoriesTitle": "Categorie",
+    "tagsTitle": "Tag",
+    "recentPostsTitle": "Post Recenti"
+  },
+  "headerOffcanvas": {
+    "description": "Aiuto le aziende a sviluppare una cultura dell’AI solida, condivisa e orientata ai risultati.",
+    "buttonLabel": "Mettiti in contatto"
+  },
+  "blog": {
+    "category": "Categoria",
+    "share": "Condividi:",
+    "paginationPrevious": "Post Precedente",
+    "paginationNext": "Post Successivo"
+  },
+  "navigation": {
+    "buttonLabel": "Inizia"
+  },
+  "subscription": {
+    "title": "Ricevi preziose informazioni su strategia, cultura e brand direttamente nella tua inbox",
+    "note": "Iscrivendoti per ricevere email da Frisk, accetti la nostra [Privacy Policy](/privacy-policy/). Trattiamo le tue informazioni in modo responsabile."
+  },
+  "footer": {
+    "menuTitleLinks": "Link",
+    "contact": "Contatto  ",
+    "copyright": "Copyright © {{ year }} Bernardino Sassoli de' Bianchi / Theme By [Getastrothemes](https://getastrothemes.com/)"
+
+  }
+}

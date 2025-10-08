@@ -1,0 +1,23 @@
+---
+# For Updating Contact Info Like Email, Phone Number, Address, etc. Please update in `src/config/config.toml` `settings.contactInfo` table
+
+enable: true # Control the visibility of this section across all pages where it is used
+titleSize: "display-2" # If your title text is larger, use a smaller text size like "display-3", "display-2", or "display-1".
+title:
+  - Orientarsi
+  - oltre l'hype
+  - dell'IA
+
+image: "/images/banner/agency-dark.jpg"
+description: "Aiuto le aziende a sviluppare una <br /> cultura dell’AI  solida, condivisa,<br /> e orientata ai risultati"
+
+button:
+  # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)
+  enable: false
+  label: "I miei progetti"
+  url: "/portfolio/"
+  # hoverEffect: "" # Optional: text-flip | creative-fill | magnetic | magnetic-text-flip
+  # variant: "" # Optional: fill | outline | text | circle
+  # rel: "" # Optional
+  # target: "" # Optional
+---
