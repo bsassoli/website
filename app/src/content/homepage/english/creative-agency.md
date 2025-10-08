@@ -1,11 +1,11 @@
 ---
-title: "Home - Creative Agency"
+title: "AI Strategies for your Business"
 metaDescription: "This is a example description"
 
 # Override Default Content of `/sections/call-to-action.md`
 # Uncomment key values that you wan to override
 ctaSection:
-  enable: true # Control the visibility of this section across all pages where it is used
+  enable: false # Control the visibility of this section across all pages where it is used
   title: "Let's Create Something Great"
   description: |
     We shift you from today’s reality to tomorrow’s potential, ensuring
@@ -27,7 +27,7 @@ ctaSection:
 # Override Default Content of `/sections/services-section.md`
 # Uncomment key values that you wan to override
 servicesSection:
-  enable: true
+  enable: false
   # sectionDirection: "horizontal" # horizontal | vertical
   # title: "What We Can Do for Our Clients"
 
@@ -40,7 +40,7 @@ servicesSection:
 # Override Default Content of `/sections/projects-section.md`
 # Uncomment key values that you wan to override
 portfolioSection:
-  enable: true
+  enable: false
   title: "Discover Our <br /> Selected Projects"
 
   options:
@@ -60,7 +60,7 @@ portfolioSection:
 # Override Default Content of `/sections/blog-section.md`
 # Uncomment key values that you wan to override
 blogSection:
-  enable: true # Control the visibility of this section across all pages where it is used
+  enable: false # Control the visibility of this section across all pages where it is used
   # title: "Read Our Articles and News"
 
   options:

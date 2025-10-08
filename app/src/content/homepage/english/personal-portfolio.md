@@ -1,5 +1,5 @@
 ---
-title: "Home - Creative Agency"
+title: "sassoli.io - Strategie AI per il tuo business"
 metaDescription: "This is a example description"
 
 # Override Default Content of `/sections/services-section.md`
