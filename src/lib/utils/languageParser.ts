@@ -107,7 +107,7 @@ export const getSupportedLanguages = (): Array<any> => {
   let disabledLanguages = config.settings.multilingual.enable
     ? config.settings.multilingual.disableLanguages
     : supportedLanguages
-        .map((lang) => lang.languageCode !== "en" && lang.languageCode)
+        .map((lang) => lang.languageCode !== defaultLanguage && lang.languageCode)
         .filter(Boolean);
 
   // Filter out the disabled languages

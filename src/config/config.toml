@@ -1,10 +1,10 @@
 # Site Configuration
 [site]
-  title             = "sassoli.ai" # Shared title for SEO and OpenGraph
+  title             = "sassoli.io" # Shared title for SEO and OpenGraph
   description       = "Personal and professional website for Bernardino Sassoli de Bianchi, AI expert, management consultant, academic, philosopher" # Shared description for SEO and OpenGraph
   tagline           = "AI without the hype"
   taglineSeparator = "" # default is " - "
-  baseUrl          = "https://www.sassoli.ai" # Base URL for the site and used in OpenGraph meta tags.
+  baseUrl          = "https://www.sassoli.io" # Base URL for the site and used in OpenGraph meta tags.
   logo              = "/images/logos/light/sassoli.ai.svg" # Path to the site's logo
   logoAlternate    = "/images/logos/light/sassoli.ai.svg" # Path to the site's logo
   logoText         = "" # Text displayed next to the logo
@@ -69,9 +69,9 @@
 
   # docs - https://formspree.io/ | https://formsubmit.co/ | https://docs.netlify.com/forms/setup/
   # Form action URL for the contact form (For more settings related to form see "src/content/sections/contact-section.md")
-  contactFormAction = "https://formsubmit.co/temp.gats@gmail.com" # https://formspree.io/f/kweoweo | https://formsubmit.co/your@email.com | "/"
+  contactFormAction = "/" # https://formspree.io/f/kweoweo | https://formsubmit.co/your@email.com | "/"
   # formspree | formsubmit.co | netlify (default is formsubmit.co)
-  contactFormProvider = "formsubmit.co"
+  contactFormProvider = "netlify"
 
   footerDescription = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the footer description in different languages or directly add value here if you are not using internationalization feature
 
@@ -95,15 +95,15 @@
   [settings.multilingual]
     # Set `enable` to `true` for enabling the multilingual feature or `false` for disabling it.
     # Run `npm run remove-multilingual` for removing multilingual content files after disabling the feature.
-    enable                   = true
+    enable                   = false
     defaultLanguage         = "it"
     disableLanguages        = ["fr"] # List of languages to disable (eg: ["fr", "es"])
     showDefaultLangInUrl = false # Show default language in URL (eg: https://getastrothemes.com/en/)
 
   # Global Contact Information
   [settings.contactInfo]
-    address = "Via Scarlatti 29 <br /> 20124 Milano, Italia"
-    email = "[info@sassoli.ai](mailto:info@sassili.ai)"
+    # address = "Via Scarlatti 29 <br /> 20124 Milano, Italia"
+    email = "[info@sassoli.io](mailto:info@sassili.io)"
 
 
   # Header Offcanvas Configuration
@@ -121,7 +121,7 @@
 
   # Navigation Button In Header
   [settings.navigationButton]
-    enable = true
+    enable = false
     label  = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the navigation button label in different languages or directly add value here if you are not using internationalization feature
     url    = "/contact/"
 

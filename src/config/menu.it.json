@@ -2,8 +2,8 @@
   "headerPrimary": [
     {
       "name": "Su di me",
-      "enable": true,
-      "hasMegaMenu": true,
+      "enable": false,
+      "hasMegaMenu": false,
       "testimonial": {
         "enable": false,
         "name": "TESTIMONIAL",
@@ -11,13 +11,13 @@
         "content": "Folex strategic planning helped us streamline operations and unlock new market opportunities. We've seen a remarkable 25% increase in revenue within the last year."
       },
       "services": {
-        "enable": true,
+        "enable": false,
         "name": "SERVICES"
       }
     },
     {
       "name": "Clienti",
-      "enable": true,
+      "enable": false,
       "hasChildren": false,
       "children": [
         {
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "enable": true,
+      "enable": false,
       "name": "Elements",
       "url": "/elements/",
       "badge": {

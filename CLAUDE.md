@@ -10,7 +10,7 @@ This is a multilingual Astro-based website for a creative agency and personal po
 
 ### Content Management
 - **Content Collections**: Defined in `src/content.config.ts` with schemas for blog, services, portfolio, team, and pages
-- **Multilingual Support**: Content stored in `src/content/*/english/` and `src/content/*/french/` directories
+- **Multilingual Support**: Content stored in `src/content/*/english/` and `src/content/*/french/` and `src/content/*/it/` directories
 - **Configuration**: Site settings in `src/config/config.toml`, parsed by `parseTomlToJson` utility
 - **Content Types**: 
   - Blog posts (MDX) with category/tag support

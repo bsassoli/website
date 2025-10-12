@@ -1,9 +1,9 @@
 ---
 # For Updating Contact Info Like Email, Phone Number, Address, etc. Please update in `src/config/config.toml` `settings.contactInfo` table
 enable: true # Control the visibility of this section across all pages where it is used
-title: "Let’s Work Together"
+title: "Lavoriamo insieme"
 description: |
-  We are digital agency that helps businesses develop immersive and engaging user experiences
+  Combiniamo serietà, concretezza e visione strategica per trovare la soluzione migliore su misura per il vostro business.
 
 button:
   # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)

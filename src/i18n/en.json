@@ -37,7 +37,7 @@
   "footer": {
     "menuTitleLinks": "Links",
     "contact": "Contact",
-    "copyright": "Copyright © {{ year }} Folex / Theme By [Getastrothemes](https://getastrothemes.com/)",
+    "copyright": "Copyright © {{ year }} Bernardino Sassoli de' Bianchi / Theme By [Getastrothemes](https://getastrothemes.com/)",
     "_comment": "We kindly appreciate it if you retain the theme copyright. Thank you for supporting Getastrothemes!"
   }
 }
