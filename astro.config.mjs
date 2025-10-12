@@ -28,7 +28,7 @@ let {
 // Remove default language from supportedLanguages
 disableLanguages = multilingualEnable
   ? disableLanguages
-  : supportedLanguages.map((lang) => lang !== "en" && lang).filter(Boolean);
+  : supportedLanguages.map((lang) => lang !== defaultLanguage && lang).filter(Boolean);
 
 // Filter out disabled languages from supportedLanguages
 const locales = disableLanguages
