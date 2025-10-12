@@ -140,7 +140,7 @@ form:
       tag: "textarea"
       defaultValue: ""
       rows: "3" # Only work if tag is textarea
-      placeholder: "How can we help you *"
+      placeholder: "Scrivete qui il testo del vostro messaggio *"
       name: "Message" # This is crucial. Its indicate under which name you want to receive this field data
       required: true
       halfWidth: false

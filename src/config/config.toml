@@ -103,7 +103,7 @@
   # Global Contact Information
   [settings.contactInfo]
     # address = "Via Scarlatti 29 <br /> 20124 Milano, Italia"
-    email = "[info@sassoli.io](mailto:info@sassili.io)"
+    email = "[info@sassoli.io](mailto:info@sassoli.io)"
 
 
   # Header Offcanvas Configuration
