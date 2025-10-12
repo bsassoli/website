@@ -37,7 +37,7 @@
   "footer": {
     "menuTitleLinks": "Link",
     "contact": "Contatto  ",
-    "copyright": "Copyright © {{ year }} Bernardino Sassoli de' Bianchi / Theme By [Getastrothemes](https://getastrothemes.com/)"
+    "copyright": "Copyright © {{ year }} Bernardino Sassoli de' Bianchi"
 
   }
 }

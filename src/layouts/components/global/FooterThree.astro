@@ -34,7 +34,7 @@ const copyrightParts = splitProtectedText(copyrightText);
 
 <footer
   id="footer-with-contact"
-  class:list={["bg-accent", !footerSpaceTop && "mt-0"]}>
+  class:list={["bg-accent text-white", !footerSpaceTop && "mt-0"]}>
   <div class="container pb-8 md:pb-16">
     <div
       class="grid grid-cols-1 gap-y-10 border-b-2 border-black py-16 md:py-24 lg:grid-cols-2 lg:gap-x-20 xl:gap-x-10">
@@ -80,7 +80,7 @@ const copyrightParts = splitProtectedText(copyrightText);
       <ContactForm form={form} />
     </div>
     <div
-      class="font-secondary flex flex-wrap items-center justify-between gap-x-8 gap-y-6 pt-6 text-sm leading-loose font-semibold uppercase">
+      class="font-primary flex flex-wrap items-center justify-between gap-x-8 gap-y-6 pt-6 text-sm leading-loose font-semibold uppercase">
       {address && <p set:html={markdownify(address)} />}
       <div class="md:text-end">
         {phone && <p set:html={markdownify(phone)} />}
