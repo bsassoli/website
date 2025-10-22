@@ -163,6 +163,38 @@ const {
       handleScroll(true);
     }
 
+    function setupMobileCtaHandler(): void {
+      // Close mobile menu when CTA button is clicked
+      document.addEventListener('click', (e) => {
+        const target = e.target as HTMLElement;
+        const ctaButton = target.closest('.mobile-nav-cta-button');
+
+        if (ctaButton) {
+          // Find any open dropdown
+          const allDropdowns = document.querySelectorAll('.hs-dropdown');
+          let openDropdown = null;
+
+          allDropdowns.forEach(dd => {
+            if (dd.classList.contains('open')) {
+              openDropdown = dd;
+            }
+          });
+
+          // Close the dropdown using HSDropdown API
+          if (openDropdown && window.HSDropdown) {
+            window.HSDropdown.close(openDropdown);
+          }
+
+          // Fallback: click the nav toggler to close
+          const navToggler = document.querySelector('.nav-toggler');
+          if (navToggler && !openDropdown) {
+            setTimeout(() => navToggler.click(), 50);
+          }
+        }
+      }, true);
+    }
+
     stickyHeader();
+    setupMobileCtaHandler();
   </script>
 </div>
