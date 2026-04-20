@@ -31,7 +31,7 @@ title += config.site.tagline ? taglineSeparator + config.site.tagline : "";
 description = metaDescription ? metaDescription : description;
 canonical = canonical ? canonical : Astro.url.href;
 lang = Astro.currentLocale;
-image = absoluteUrl(image, Astro);
+image = image ? absoluteUrl(image, Astro) : undefined;
 
 // Generate JSON-LD dynamically
 const jsonLdData = JsonLdGenerator(

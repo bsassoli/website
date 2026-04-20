@@ -45,7 +45,7 @@ export default function JsonLdGenerator(content: JSONLDProps, Astro: any) {
       jsonLdData["@type"] = "WebPage";
       jsonLdData.name = title;
       jsonLdData.description = description;
-      jsonLdData.image = image;
+      if (image) jsonLdData.image = image;
       jsonLdData.url = canonical;
 
       if (lang) {
@@ -77,13 +77,16 @@ export default function JsonLdGenerator(content: JSONLDProps, Astro: any) {
       }));
   }
 
-  // Add `publisher` to jsonLdData
+  // Add `publisher` to jsonLdData — Person schema for personal brand
   jsonLdData.publisher = {
-    "@type": "Organization",
+    "@type": "Person",
     name: config.seo.author,
+    description: config.site.description,
+    jobTitle: "AI Strategy Consultant",
+    knowsAbout: config.seo.keywords,
     url: trailingSlashChecker(Astro.url.origin),
     sameAs: social.main.filter((item) => item.enable).map((item) => item.url),
-    logo: {
+    image: {
       "@type": "ImageObject",
       url: absoluteUrl(config.site.logo, Astro),
     },
