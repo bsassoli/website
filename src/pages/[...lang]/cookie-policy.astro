@@ -1,0 +1,94 @@
+---
+import Base from "@/layouts/Base.astro";
+import { generatePaths } from "@/lib/utils/languageParser.ts";
+
+export function getStaticPaths() {
+  return generatePaths();
+}
+---
+
+<Base
+  title="Cookie policy"
+  metaDescription="Elenco e descrizione dei cookie utilizzati dal sito sassoli.io e modalità di gestione del consenso."
+  disableTagline={true}
+  fitToScreen={false}>
+  <section class="py-16 md:py-24">
+    <div class="container max-w-4xl">
+      <article class="prose prose-lg max-w-none">
+        <h1>Cookie policy</h1>
+        <p><em>Ultimo aggiornamento: aprile 2026</em></p>
+
+        <h2>Cosa sono i cookie</h2>
+        <p>
+          I cookie sono piccoli file di testo che i siti web memorizzano sul dispositivo dell'utente
+          durante la navigazione, per consentire al sito di funzionare correttamente o per raccogliere
+          informazioni aggregate sull'utilizzo.
+        </p>
+
+        <h2>Cookie utilizzati da questo sito</h2>
+        <p>
+          Questo sito non utilizza cookie tecnici propri oltre a quelli necessari al corretto
+          funzionamento. I cookie elencati di seguito sono impostati unicamente previo consenso
+          dell'utente tramite il banner di consenso.
+        </p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Servizio</th>
+              <th>Cookie</th>
+              <th>Scopo</th>
+              <th>Durata</th>
+              <th>Tipologia</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Klaro!</td>
+              <td><code>klaro</code></td>
+              <td>Memorizza le preferenze di consenso dell'utente.</td>
+              <td>365 giorni</td>
+              <td>Tecnico (essenziale)</td>
+            </tr>
+            <tr>
+              <td>Google Analytics 4</td>
+              <td><code>_ga</code>, <code>_ga_*</code></td>
+              <td>
+                Identifica in modo pseudonimo i visitatori unici per analisi statistiche aggregate
+                dell'utilizzo del sito.
+              </td>
+              <td>fino a 2 anni</td>
+              <td>Analitico di terza parte (richiede consenso)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Come gestire il consenso</h2>
+        <p>
+          Al primo accesso al sito viene mostrato un banner che consente di accettare o rifiutare i
+          cookie analitici. La scelta può essere modificata in qualsiasi momento cliccando sull'icona
+          di gestione cookie presente in basso a sinistra della pagina.
+        </p>
+        <p>
+          In alternativa, è possibile eliminare manualmente i cookie dalle impostazioni del proprio
+          browser o impostare il browser per bloccarli.
+        </p>
+
+        <h2>Disattivazione di Google Analytics</h2>
+        <p>
+          Gli utenti che desiderano disattivare Google Analytics su tutti i siti web possono installare
+          il componente aggiuntivo per browser disponibile all'indirizzo
+          <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener" target="_blank">
+            tools.google.com/dlpage/gaoptout
+          </a>.
+        </p>
+
+        <h2>Ulteriori informazioni</h2>
+        <p>
+          Per ulteriori dettagli sul trattamento dei dati personali raccolti tramite cookie, consulta
+          l'<a href="/privacy-policy/">informativa sulla privacy</a>.
+        </p>
+      </article>
+    </div>
+  </section>
+</Base>

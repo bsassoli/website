@@ -148,13 +148,25 @@
 # [head] (Add custom scripts, stylesheets, and meta tags to be rendered in the <head> section of the page)
 # -----------------------------------------------------------------------------------------------------------------------------------
 [head]
-  # Google Analytics 4 (gtag.js)
+  # Klaro! consent manager + Google Analytics 4 (gated via Google Consent Mode v2).
+  # GA4 gtag.js loads on every page but analytics_storage defaults to "denied" until
+  # the visitor explicitly accepts via the Klaro! banner.
   content = '''
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLXM3Z8S7D"></script>
+  <link rel="stylesheet" href="/klaro/klaro.min.css">
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      ad_storage: 'denied',
+      analytics_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      wait_for_update: 500
+    });
     gtag('js', new Date());
     gtag('config', 'G-CLXM3Z8S7D');
   </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLXM3Z8S7D"></script>
+  <script defer src="/klaro/klaro-config.js"></script>
+  <script defer src="/klaro/klaro.min.js" data-klaro-config="klaroConfig"></script>
   '''

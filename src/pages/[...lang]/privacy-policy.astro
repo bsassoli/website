@@ -1,0 +1,131 @@
+---
+import Base from "@/layouts/Base.astro";
+import { generatePaths } from "@/lib/utils/languageParser.ts";
+
+export function getStaticPaths() {
+  return generatePaths();
+}
+---
+
+<Base
+  title="Informativa sulla privacy"
+  metaDescription="Informativa sul trattamento dei dati personali del sito sassoli.io, ai sensi del Regolamento UE 2016/679 (GDPR)."
+  disableTagline={true}
+  fitToScreen={false}>
+  <section class="py-16 md:py-24">
+    <div class="container max-w-4xl">
+      <article class="prose prose-lg max-w-none">
+        <h1>Informativa sulla privacy</h1>
+        <p><em>Ultimo aggiornamento: aprile 2026</em></p>
+
+        <p>
+          La presente informativa descrive le modalità di trattamento dei dati personali degli utenti che
+          interagiscono con il sito web <strong>sassoli.io</strong>, ai sensi del Regolamento (UE) 2016/679
+          ("GDPR") e della normativa italiana in materia di protezione dei dati personali.
+        </p>
+
+        <h2>1. Titolare del trattamento</h2>
+        <p>
+          Titolare del trattamento è <strong>Bernardino Sassoli de' Bianchi</strong>,
+          contattabile via email all'indirizzo <a href="mailto:info@sassoli.io">info@sassoli.io</a>.
+        </p>
+
+        <h2>2. Dati trattati</h2>
+        <p>Questo sito tratta le seguenti categorie di dati personali:</p>
+        <ul>
+          <li>
+            <strong>Dati di navigazione</strong> (indirizzo IP, tipo di browser, sistema operativo, pagine
+            visitate, data e ora di accesso, referrer). Questi dati vengono raccolti in forma pseudonimizzata
+            da Google Analytics 4, previo consenso dell'utente.
+          </li>
+          <li>
+            <strong>Dati forniti volontariamente tramite il modulo di contatto</strong> (nome, indirizzo email,
+            oggetto della richiesta, contenuto del messaggio).
+          </li>
+        </ul>
+
+        <h2>3. Finalità e base giuridica del trattamento</h2>
+        <ul>
+          <li>
+            <strong>Analisi statistiche del sito</strong> (Google Analytics 4) – base giuridica: consenso
+            dell'utente (art. 6.1.a GDPR). In assenza di consenso nessun cookie analitico viene installato.
+          </li>
+          <li>
+            <strong>Gestione delle richieste di contatto</strong> – base giuridica: esecuzione di misure
+            precontrattuali su richiesta dell'interessato (art. 6.1.b GDPR).
+          </li>
+          <li>
+            <strong>Sicurezza del sito</strong> – base giuridica: legittimo interesse del titolare a
+            garantire il corretto funzionamento e la sicurezza del sito (art. 6.1.f GDPR).
+          </li>
+        </ul>
+
+        <h2>4. Destinatari dei dati</h2>
+        <p>I dati personali possono essere comunicati ai seguenti soggetti, in qualità di responsabili del trattamento:</p>
+        <ul>
+          <li>
+            <strong>Netlify, Inc.</strong> – fornitore dei servizi di hosting e distribuzione del sito.
+          </li>
+          <li>
+            <strong>Google Ireland Ltd</strong> – fornitore del servizio di analisi Google Analytics 4
+            (solo in caso di consenso).
+          </li>
+        </ul>
+
+        <h2>5. Trasferimento dei dati extra-UE</h2>
+        <p>
+          Alcuni fornitori (Google, Netlify) trattano i dati anche in paesi extra-UE, in particolare negli
+          Stati Uniti. Il trasferimento avviene sulla base del framework UE–USA sulla privacy dei dati
+          ("EU-US Data Privacy Framework") o di Clausole Contrattuali Standard approvate dalla Commissione
+          Europea (art. 46 GDPR).
+        </p>
+
+        <h2>6. Periodo di conservazione</h2>
+        <ul>
+          <li>Dati di Google Analytics 4: 14 mesi (periodo di default non modificato).</li>
+          <li>
+            Comunicazioni via email: conservate per il tempo necessario a gestire la richiesta e i successivi
+            adempimenti, indicativamente fino a 24 mesi dall'ultimo contatto.
+          </li>
+        </ul>
+
+        <h2>7. Diritti dell'interessato</h2>
+        <p>Ai sensi degli articoli 15–22 del GDPR, l'utente ha diritto a:</p>
+        <ul>
+          <li>accedere ai propri dati personali;</li>
+          <li>richiederne la rettifica o la cancellazione;</li>
+          <li>ottenere la limitazione del trattamento;</li>
+          <li>opporsi al trattamento;</li>
+          <li>ricevere i dati in un formato strutturato (portabilità);</li>
+          <li>
+            revocare in qualsiasi momento il consenso prestato, senza pregiudicare la liceità del trattamento
+            basata sul consenso prima della revoca.
+          </li>
+        </ul>
+        <p>
+          Per esercitare tali diritti è sufficiente scrivere a
+          <a href="mailto:info@sassoli.io">info@sassoli.io</a>.
+        </p>
+
+        <h2>8. Diritto di reclamo al Garante</h2>
+        <p>
+          L'utente che ritiene illegittimo il trattamento dei propri dati personali può presentare reclamo
+          all'Autorità Garante per la Protezione dei Dati Personali
+          (<a href="https://www.garanteprivacy.it" rel="noopener" target="_blank">garanteprivacy.it</a>).
+        </p>
+
+        <h2>9. Cookie</h2>
+        <p>
+          Per il dettaglio sui cookie utilizzati e le modalità di gestione, si rimanda alla
+          <a href="/cookie-policy/">cookie policy</a>.
+        </p>
+
+        <h2>10. Modifiche</h2>
+        <p>
+          La presente informativa può essere aggiornata in qualsiasi momento. Le modifiche saranno rese
+          effettive a partire dalla data di pubblicazione indicata in testa al documento.
+        </p>
+      </article>
+    </div>
+  </section>
+</Base>
