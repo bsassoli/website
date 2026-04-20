@@ -177,7 +177,7 @@ form:
     #   type: "radio"
     #   halfWidth: true
     #   defaultValue: ""
-    - label: "Ho letto e accettato la  [privacy policy](/contact/)." # only valid for type="checkbox" & type === "radio"
+    - label: "Ho letto e accettato la [privacy policy](/privacy-policy/)." # only valid for type="checkbox" & type === "radio"
       id: "privacy-policy"
       name: "Agreed Privacy" # This is crucial. Its indicate under which name you want to receive this field data
       value: "Agreed" # Value that will be submit (applicable for type="checkbox" & type === "radio")
