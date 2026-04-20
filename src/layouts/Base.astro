@@ -53,7 +53,7 @@ className = fitToScreen
 ---
 
 <!doctype html>
-<html lang="{Astro.props.lang || 'en'}" >
+<html lang={Astro.currentLocale || 'it'}>
   <Head {...props} structuredData={structuredData} />
   <body class:list={[hasBodyDarkBackground && "bg-body-dark"]}>
     <Header

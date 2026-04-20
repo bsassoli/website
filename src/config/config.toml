@@ -4,7 +4,7 @@
   description       = "Personal and professional website for Bernardino Sassoli de Bianchi, AI expert, management consultant, academic, philosopher" # Shared description for SEO and OpenGraph
   tagline           = "AI without the hype"
   taglineSeparator = "" # default is " - "
-  baseUrl          = "https://www.sassoli.io" # Base URL for the site and used in OpenGraph meta tags.
+  baseUrl          = "https://sassoli.io" # Base URL for the site and used in OpenGraph meta tags.
   logo              = "/images/logos/light/sassoli.io.svg" # Path to the site's logo
   logoAlternate    = "/images/logos/light/sassoli.io.svg" # Path to the site's logo
   logoText         = "" # Text displayed next to the logo
@@ -118,8 +118,8 @@
     # Call To Action Button
     [settings.headerOffcanvas.button]
       enable = true
-      label = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the button label in different languages or directly add value here if you are not using internationalization feature
-      url = "/contact/"
+      label = "" # Check src/i18n/it.json for changing the button label
+      url = "/#footer-with-contact"
 
   # Navigation Button In Header
   [settings.navigationButton]
