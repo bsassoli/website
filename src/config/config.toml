@@ -139,8 +139,8 @@
 # Specific OpenGraph settings, using values from the [site] section where possible.
 # -----------------------------------------------------------------------------------------------------------------------------------
 [opengraph]
-  image        = "/images/og-image.jpg" # Image used in OpenGraph previews
-  ogLocale    = "en_US" # Locale setting for OpenGraph
+  # image      = "/images/og-image.jpg" # Add a 1200x630 social preview image for sassoli.io (<500KB) and uncomment this line
+  ogLocale    = "it_IT" # Locale setting for OpenGraph
   ogType      = "website" # Type of content for OpenGraph protocol
   twitter      = "" # Twitter handle for Twitter Card meta tags
   twitterCard = "summary_large_image" # Type of Twitter Card to use in social sharing
@@ -148,6 +148,13 @@
 # [head] (Add custom scripts, stylesheets, and meta tags to be rendered in the <head> section of the page)
 # -----------------------------------------------------------------------------------------------------------------------------------
 [head]
-  content = """
-  <noscript defer src="/umami.is.js" data-website-id=""></noscript>
-  """
+  # Google Analytics 4 (gtag.js)
+  content = '''
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLXM3Z8S7D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CLXM3Z8S7D');
+  </script>
+  '''
