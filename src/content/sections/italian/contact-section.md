@@ -1,7 +1,7 @@
 ---
 enable: true # Control the visibility of this section across all pages where it is used
-title: "Have Any Project on Your Mind?"
-description: "Great! We're excited to hear from you and let's start something"
+title: "Parliamoci"
+description: "Di solito rispondo entro 24–48 ore. Il primo incontro è sempre gratuito."
 
 # image: "/images/about-us/about-one.jpg"
 # imagePosition: "left" # Choose between "left" or "right"

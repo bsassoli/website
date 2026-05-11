@@ -1,0 +1,19 @@
+---
+import Base from "@/layouts/Base.astro";
+import ContactSection from "@/components/sections/ContactSection.astro";
+import { generatePaths } from "@/lib/utils/languageParser.ts";
+
+export function getStaticPaths() {
+  return generatePaths();
+}
+---
+
+<Base
+  title="Contatti"
+  metaDescription="Scrivi a Bernardino Sassoli per un workshop sull'AI, una consulenza strategica o per saperne di più sui servizi disponibili."
+  headerPosition="fixed"
+  hasHeaderDarkBackground={false}>
+  <div class="pt-32">
+    <ContactSection />
+  </div>
+</Base>
