@@ -1,8 +1,8 @@
 {
   "headerPrimary": [
-    { "name": "Chi sono", "url": "/chi-sono/" },
-    { "name": "Servizi", "url": "/servizi/" },
-    { "name": "Contatti", "url": "/contatti/" }
+    { "name": "Chi sono", "url": "/chi-sono/", "enable": true },
+    { "name": "Servizi", "url": "/servizi/", "enable": true },
+    { "name": "Contatti", "url": "/contatti/", "enable": true }
   ],
   "footerPrimary": [],
   "footerSecondary": [],
