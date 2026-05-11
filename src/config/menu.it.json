@@ -1,5 +1,9 @@
 {
-  "headerPrimary": [],
+  "headerPrimary": [
+    { "name": "Chi sono", "url": "/chi-sono/" },
+    { "name": "Servizi", "url": "/servizi/" },
+    { "name": "Contatti", "url": "/contatti/" }
+  ],
   "footerPrimary": [],
   "footerSecondary": [],
   "footerTertiary": []
