@@ -1,70 +1,26 @@
 ---
-enable: true # Control the visibility of this section across all pages where it is used
-title: ""
+enable: true
+title: "Domande frequenti"
 
 list:
   - enable: true
-    title: "Will you be updating the program?"
+    title: "Quanto dura un workshop?"
     content: |
-      We design high quality websites that make users come back for more. A good website tells a story that will make users fully immerse themselves operating
+      Il formato standard è una giornata intera (6–7 ore), ma è disponibile anche un formato mezza giornata per team con meno disponibilità. Il programma viene sempre calibrato sul contesto del cliente.
   - enable: true
-    title: "What happens to my data if I cancel?"
+    title: "È necessaria una conoscenza tecnica dell'AI per partecipare?"
     content: |
-      We design high quality websites that make users come back for more. A good website tells a story that will make users fully immerse themselves operating
+      No. I workshop sono progettati per chi lavora con l'AI da un punto di vista strategico e operativo, non tecnico. Non si parla di codice né di architetture software.
   - enable: true
-    title: "How I can optimize voice search?"
+    title: "Come si struttura un primo incontro di consulenza?"
     content: |
-      We design high quality websites that make users come back for more. A good website tells a story that will make users fully immerse themselves operating
+      Il primo incontro è sempre gratuito e serve a capire il contesto, gli obiettivi e se c'è una buona affinità di lavoro. Dura circa un'ora, in presenza o da remoto.
   - enable: true
-    title: "If I have questions, where can I find answers?"
+    title: "Lavorate anche con PMI?"
     content: |
-      We design high quality websites that make users come back for more. A good website tells a story that will make users fully immerse themselves operating
+      Sì. La maggior parte dei clienti sono aziende di medie dimensioni che hanno già capito che l'AI è rilevante per il loro business, ma non sanno da dove cominciare.
   - enable: true
-    title: "Can I get an invoice for my purchase?"
+    title: "È possibile un percorso su misura?"
     content: |
-      We design high quality websites that make users come back for more. A good website tells a story that will make users fully immerse themselves operating
-
-# contactInformation:
-#   - title: "Headquarters"
-#     icon: "/images/icons/svg/location-filled.svg"
-#     description: "27 Division St, New York, NY 10002, USA"
-#     button:
-#       # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)
-#       enable: true
-#       label: "Get Direction"
-#       url: "/"
-#       # hoverEffect: "" # Optional: text-flip | creative-fill | magnetic | magnetic-text-flip
-#       # variant: "" # Optional: fill | outline | text | circle
-#       # rel: "" # Optional
-#       # target: "" # Optional
-#
-#   - title: "Email Address"
-#     icon: "/images/icons/svg/message-filled.svg"
-#     description: |
-#       folex.agency@mail.com
-#       folex.agency@support.com
-#     button:
-#       # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)
-#       enable: true
-#       label: "Send Message"
-#       url: "mailto:folex.agency@mail.com"
-#       # hoverEffect: "" # Optional: text-flip | creative-fill | magnetic | magnetic-text-flip
-#       # variant: "" # Optional: fill | outline | text | circle
-#       # rel: "" # Optional
-#       # target: "" # Optional
-#
-#   - title: "Phone Number"
-#     icon: "/images/icons/svg/phone-filled.svg"
-#     description: |
-#       +1 800 123 654 987
-#       +1 800 223 984 002
-#     button:
-#       # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)
-#       enable: true
-#       label: "Call Anytime"
-#       url: "tel:+1800123654987"
-#       # hoverEffect: "" # Optional: text-flip | creative-fill | magnetic | magnetic-text-flip
-#       # variant: "" # Optional: fill | outline | text | circle
-#       # rel: "" # Optional
-#       # target: "" # Optional
+      Sì, quasi sempre. I format standard sono un punto di partenza: workshop e consulenza vengono adattati al settore, alle dimensioni dell'organizzazione e agli obiettivi specifici.
 ---

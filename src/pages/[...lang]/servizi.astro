@@ -1,0 +1,55 @@
+---
+import Base from "@/layouts/Base.astro";
+import ServicesSection from "@/components/sections/ServicesSection.astro";
+import FaqSection from "@/components/sections/FaqSection.astro";
+import CallToAction from "@/components/sections/CallToAction.astro";
+import { generatePaths } from "@/lib/utils/languageParser.ts";
+
+export function getStaticPaths() {
+  return generatePaths();
+}
+---
+
+<Base
+  title="Servizi"
+  metaDescription="Workshop sull'AI, consulenza strategica e accompagnamento per aziende che vogliono adottare l'intelligenza artificiale con metodo."
+  headerPosition="fixed"
+  hasHeaderDarkBackground={false}>
+
+  <section class="pt-40 pb-10">
+    <div class="container">
+      <h1 class="text-h1-sm md:text-h1 max-w-3xl">Come posso aiutarti</h1>
+      <p class="mt-6 max-w-xl text-lg text-muted">
+        Tre modalità di collaborazione, una sola priorità: che l'AI diventi uno strumento concreto per il vostro business.
+      </p>
+    </div>
+  </section>
+
+  <ServicesSection content={{ options: { layout: "accordion", appearance: "dark" } }} />
+
+  <section class="section-spacing">
+    <div class="container">
+      <h2 class="text-h1-sm md:text-h1 mb-12 max-w-3xl">Come lavoro</h2>
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div>
+          <p class="font-secondary text-2xl font-semibold mb-3">01</p>
+          <h3 class="text-h5 mb-2">Ascolto</h3>
+          <p>Capisco il contesto, gli obiettivi e i vincoli reali prima di proporre qualsiasi cosa.</p>
+        </div>
+        <div>
+          <p class="font-secondary text-2xl font-semibold mb-3">02</p>
+          <h3 class="text-h5 mb-2">Analisi</h3>
+          <p>Mappa delle opportunità AI rilevanti per il vostro caso specifico, con priorità chiare.</p>
+        </div>
+        <div>
+          <p class="font-secondary text-2xl font-semibold mb-3">03</p>
+          <h3 class="text-h5 mb-2">Piano d'azione</h3>
+          <p>Un piano concreto e misurabile — non un documento da mettere nel cassetto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <FaqSection />
+  <CallToAction />
+</Base>
