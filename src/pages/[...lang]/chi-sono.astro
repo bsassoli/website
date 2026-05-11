@@ -1,0 +1,21 @@
+---
+import Base from "@/layouts/Base.astro";
+import BannerPersonalPortfolio from "@/components/sections/BannerPersonalPortfolio.astro";
+import AboutTwo from "@/components/sections/AboutTwo.astro";
+import CallToAction from "@/components/sections/CallToAction.astro";
+import { generatePaths } from "@/lib/utils/languageParser.ts";
+
+export function getStaticPaths() {
+  return generatePaths();
+}
+---
+
+<Base
+  title="Chi sono"
+  metaDescription="Bernardino Sassoli de' Bianchi — consulente e formatore specializzato in strategia AI. Aiuto aziende e team a costruire un rapporto concreto con l'intelligenza artificiale."
+  headerPosition="fixed"
+  hasHeaderDarkBackground={true}>
+  <BannerPersonalPortfolio />
+  <AboutTwo />
+  <CallToAction />
+</Base>

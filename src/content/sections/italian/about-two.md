@@ -1,24 +1,22 @@
 ---
-enable: true # Control the visibility of this section across all pages where it is used
-title: "Passionate About Quality Design"
+enable: true
+title: "Il mio approccio"
 
-image: "/images/about-us/about-two.png"
-imagePosition: "right" # Choose between "left" or "right"
+image: "/images/banner/agency-dark.jpg"
+imagePosition: "right"
 
 description: |
-  ### We Love What We Do <br />
-  We are a creative agency working with brands building insightful strategy, creating unique designs and crafting value
+  ### Parto dal contesto reale
+  Non esiste una strategia AI valida per tutti. Prima di qualsiasi raccomandazione, ascolto: il settore, il team, gli obiettivi, i vincoli. <br /><br />
 
-  ### Why Work With Us <br />
-  If you ask our clients what it’s like working with 36, they’ll talk about how much we care about their success. For us, real relationships fuel real success. We love building brands
+  ### Traduco la tecnologia in decisioni
+  L’AI è uno strumento. Il mio lavoro è aiutare a capire quali strumenti servono davvero, come introdurli senza stravolgere l’organizzazione, e come misurarne il valore. <br /><br />
+
+  ### Costruisco competenza interna
+  Non creo dipendenza. L’obiettivo di ogni collaborazione è lasciare un team più capace di navigare da solo le scelte sull’AI.
 
 button:
-  # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)
-  enable: false
-  label: "About us"
-  url: "/about/"
-  # hoverEffect: "" # Optional: text-flip | creative-fill | magnetic | magnetic-text-flip
-  # variant: "" # Optional: fill | outline | text | circle
-  # rel: "" # Optional
-  # target: "" # Optional
+  enable: true
+  label: "Scopri i servizi"
+  url: "/servizi/"
 ---
