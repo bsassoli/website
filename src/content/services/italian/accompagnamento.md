@@ -6,5 +6,9 @@ description: |
   Per le organizzazioni che vogliono un interlocutore esperto a fianco nelle fasi critiche: selezione degli strumenti, formazione del team, misura dei risultati.
 date: 2026-01-01
 draft: false
+button:
+  enable: true
+  label: "Scopri"
+  url: "/servizi/"
 ---
 

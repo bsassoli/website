@@ -8,4 +8,8 @@ description: |
   **Per chi è:** team, manager, responsabili HR e L&D — chi deve lavorare *con* l'AI, non solo sapere *dell'* AI.
 date: 2026-03-01
 draft: false
+button:
+  enable: true
+  label: "Scopri"
+  url: "/servizi/"
 ---
