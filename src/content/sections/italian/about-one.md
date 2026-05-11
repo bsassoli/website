@@ -1,22 +1,17 @@
 ---
-enable: true # Control the visibility of this section across all pages where it is used
-title: "Unlock Revenue Growth for Your Business"
+enable: true
+title: "Chi sono"
 
-image: "/images/about-us/about-one.jpg"
-imagePosition: "left" # Choose between "left" or "right"
+image: "/images/banner/agency-dark.jpg"
+imagePosition: "right"
 
 description: |
-  If you ask our clients what it’s like working with 36, they’ll talk about how much we care about their success. For us, real relationships fuel real success. We love building brands. <br /><br />
+  Sono Bernardino Sassoli de' Bianchi, consulente e formatore specializzato in strategia AI.
 
-  We are a creative agency working with brands building insightful strategy, creating unique designs and crafting value
+  Aiuto aziende e team a costruire un rapporto concreto con l'intelligenza artificiale: non come tecnologia da inseguire, ma come strumento da capire, scegliere e usare con criterio.
 
 button:
-  # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)
   enable: true
-  label: "About us"
-  url: "/about/"
-  # hoverEffect: "" # Optional: text-flip | creative-fill | magnetic | magnetic-text-flip
-  # variant: "" # Optional: fill | outline | text | circle
-  # rel: "" # Optional
-  # target: "" # Optional
+  label: "Chi sono"
+  url: "/chi-sono/"
 ---
